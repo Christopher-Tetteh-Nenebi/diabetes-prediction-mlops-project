@@ -86,7 +86,7 @@ docker run -p 8000:8000 diabetes-prediction-model
 ## Deploy to Kubernetes
 
 ```
-kubectl apply -f diabetes-prediction-model-deployment.yaml
+kubectl apply -f k8s-deploy.yml
 ```
 
 🙌 Credits
